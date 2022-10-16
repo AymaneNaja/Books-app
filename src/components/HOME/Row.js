@@ -3,7 +3,7 @@ import useFetchCateg from '../../CustomHooks/useFetchCateg'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Spinner from 'react-bootstrap/Spinner';
-import '@splidejs/splide/css/core';
+import '@splidejs/splide/css/sea-green';
 import { Link } from 'react-router-dom';
 
 

@@ -7,21 +7,14 @@ const Favorites = () => {
   console.log(favs)
 
   function RemoveFavs(id){
-    const UpdatesdFavs=favs.filter(book=>{
-      if(book.id!==id){
-        return book
-      }
-      else{
-        return
-      }
-    })
+    const UpdatesdFavs=favs.filter(book=>book.id!==id?book:null)
     setFavs(UpdatesdFavs)
   }
   return (
-  <>
-  
+  <div className='pb-40'>
+     <h1 className='text-center text-red-500'>Favorites</h1>  
      <div className='search-results flex flex-wrap gap-2 justify-center items-start mx-auto mt-2 '>
-    
+     {favs.length<1?<div className='mt-10 text-xl font-bold text-red-600'>No favorite books have been added....</div>:null}
     {favs.map(book=>{
           try{
               return(
@@ -53,7 +46,7 @@ const Favorites = () => {
             })}
       
     </div>
-    </>
+    </div>
   )
 }
 

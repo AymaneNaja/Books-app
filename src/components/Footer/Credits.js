@@ -4,11 +4,11 @@ import {AiOutlineCopyrightCircle} from 'react-icons/ai'
 
 const Credits = () => {
   return (
-    <div>
+    <div className='w-2/4'> 
         <h1>
             Credits
         </h1>
-        <p  className='w-3/4'>
+        <p  >
             this website was made by aymane naja 
             a junior react dev that is happy to learn and discover new technologies
         </p>

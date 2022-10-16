@@ -7,7 +7,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 
 const Contacts = () => {
   return (
-    <div className='w-1/6 '>
+    <div className='w-2/6'>
         <h1>Contacts</h1>
         <p>Please contact us for more info:</p>
         <div className='flex justify-center gap-1 scale-150'>

@@ -5,7 +5,8 @@ export function BookDescription({book}) {
   return <><label className='font-bold text-grad text-lg text-ellipsis text' htmlFor='description'>
                     Description
                     </label>
-                    <ReadMoreAndLess className="read-more-content" charLimit={250} readMoreText="Read more" readLessText="Read less">
+                    <ReadMoreAndLess className="read-more-content
+                    font-semiblold" charLimit={250} readMoreText="Read more" readLessText="Read less">
                     {descript}
                     </ReadMoreAndLess></>;
 }
