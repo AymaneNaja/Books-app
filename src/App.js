@@ -20,7 +20,7 @@ return (
             <Nav/>
             <Routes>
                 <Route path="/" element={<Home/>} exact></Route>
-                <Route path="/AymaneNaja/Books-app.git" element={<Home/>} exact></Route>
+                <Route path="/Books-app" element={<Home/>} exact></Route>
                 <Route path="/book/:id" element={<Book/>} exact></Route>
                 <Route path="/favorites" element={<Favorites/>} exact></Route>
                 <Route path="/Search/:title" element={<SearchResults/>} exact></Route>
