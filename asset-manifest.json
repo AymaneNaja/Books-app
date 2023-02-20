@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AymaneNaja/Books-app.git/static/css/main.f28f28e2.css",
-    "main.js": "/AymaneNaja/Books-app.git/static/js/main.e2b460c4.js",
-    "static/media/the_librarian.png": "/AymaneNaja/Books-app.git/static/media/the_librarian.8bebfcbb4ef775a17c58.png",
-    "index.html": "/AymaneNaja/Books-app.git/index.html",
-    "main.f28f28e2.css.map": "/AymaneNaja/Books-app.git/static/css/main.f28f28e2.css.map",
-    "main.e2b460c4.js.map": "/AymaneNaja/Books-app.git/static/js/main.e2b460c4.js.map"
+    "main.css": "/Books-app/static/css/main.f28f28e2.css",
+    "main.js": "/Books-app/static/js/main.a109ba92.js",
+    "static/media/the_librarian.png": "/Books-app/static/media/the_librarian.8bebfcbb4ef775a17c58.png",
+    "index.html": "/Books-app/index.html",
+    "main.f28f28e2.css.map": "/Books-app/static/css/main.f28f28e2.css.map",
+    "main.a109ba92.js.map": "/Books-app/static/js/main.a109ba92.js.map"
   },
   "entrypoints": [
     "static/css/main.f28f28e2.css",
-    "static/js/main.e2b460c4.js"
+    "static/js/main.a109ba92.js"
   ]
 }
