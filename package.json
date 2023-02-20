@@ -1,6 +1,6 @@
 {
-  "homepage":"https://github.com/AymaneNaja/Books-app.git",
-  "name": "react-task-tracker",
+  "homepage":"https://AymaneNaja.github.io/Books-app",
+  "name": "Book-APP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
