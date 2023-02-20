@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AymaneNaja/Books-app.git/static/css/main.f28f28e2.css",
+    "main.js": "/AymaneNaja/Books-app.git/static/js/main.8522e307.js",
+    "static/media/the_librarian.png": "/AymaneNaja/Books-app.git/static/media/the_librarian.8bebfcbb4ef775a17c58.png",
+    "index.html": "/AymaneNaja/Books-app.git/index.html",
+    "main.f28f28e2.css.map": "/AymaneNaja/Books-app.git/static/css/main.f28f28e2.css.map",
+    "main.8522e307.js.map": "/AymaneNaja/Books-app.git/static/js/main.8522e307.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f28f28e2.css",
+    "static/js/main.8522e307.js"
+  ]
+}
