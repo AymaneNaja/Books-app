@@ -31,7 +31,7 @@ export function BookIntro({
         }
 
   return <div className="w-2/4 grid items-start space-y-0 h-fit justify-center m-3">
-                        <img className="rounded shadow m-1" src={book.volumeInfo.imageLinks.smallThumbnail} />
+                        <img className="rounded shadow m-1  "  src={book.volumeInfo.imageLinks.thumbnail} />
                         <span className=" font-bold ">{book.volumeInfo.title}</span>
                         <span className="font-bold ">By:{[...book.volumeInfo.authors]}</span>
                         <ReactStars

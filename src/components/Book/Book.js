@@ -18,7 +18,7 @@ const Book = () => {
     const {Data,Loading,Err,ErrMsg}=useFetchBook(Bookid.id)
     console.log(Data)
   return (
-    <div>
+    <div className='min-h-screen'>
     {Loading?
         <div className='flex justify-center align-middle' ><Spinner  animation="grow" />
         </div>
